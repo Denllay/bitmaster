@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.crew {
+  border: 1px solid rgb(92, 92, 92);
+  margin-left: 10px;
+  width: 200px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  &_number {
+    font-size: 16px;
+    padding: 5px;
+
+    border: 1px solid rgb(92, 92, 92);
+  }
+}

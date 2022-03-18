@@ -1,0 +1,63 @@
+{
+  "crews_info": [
+    {
+      "crewId": 123,
+      "carMark": "Chevrolet",
+      "carModel": "Lacetti",
+      "carColor": "синий",
+      "carNumber": "Е234КУ",
+      "driverName": "Деточкин",
+      "driverPhone": "7788",
+      "lat": 56.855532,
+      "lng": 53.217462,
+      "distance": 300
+    },
+    {
+      "crewId": 124,
+      "carMark": "Hyundai",
+      "carModel": "Solaris",
+      "carColor": "белый",
+      "carNumber": "Ф567АС",
+      "driverName": "Петров",
+      "driverPhone": "8899",
+      "lat": 56.860581,
+      "lng": 53.209223,
+      "distance": 600
+    },
+    {
+      "crewId": 125,
+      "carMark": "Blabla",
+      "carModel": "Blabla",
+      "carColor": "желтый",
+      "carNumber": "N012sd",
+      "driverName": "Владимир",
+      "driverPhone": "8888",
+      "lat": 56.880581,
+      "lng": 53.209223,
+      "distance": 900
+    },
+    {
+      "crewId": 126,
+      "carMark": "Hyundai",
+      "carModel": "Solaris",
+      "carColor": "белый",
+      "carNumber": "Njdp2k",
+      "driverName": "Васин",
+      "driverPhone": "9999",
+      "lat": 56.830581,
+      "lng": 53.209223,
+      "distance": 1200
+    }
+  ],
+  "order_crew": {
+    "source_time": "20220318043503",
+    "crew_id": 123,
+    "addresses": [
+      {
+        "lon": 37.711082,
+        "address": "Нью-Йорк, ул. Суворовская, 12, Москва, Moscow 107023, Russia",
+        "lat": 55.792007
+      }
+    ]
+  }
+}

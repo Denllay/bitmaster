@@ -1,0 +1,64 @@
+{
+  "name": "bitmastertestovoe",
+  "version": "0.1.0",
+  "private": true,
+  "cracoConfig": "./configs/craco.config.js",
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "@reduxjs/toolkit": "^1.8.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/lodash": "^4.14.180",
+    "@types/node": "^16.7.13",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "antd": "^4.19.2",
+    "axios": "^0.26.1",
+    "lodash": "^4.17.21",
+    "mapbox-gl": "^2.7.0",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-map-gl": "^7.0.10",
+    "react-map-gl-geocoder": "^2.2.0",
+    "react-redux": "^7.2.6",
+    "react-scripts": "5.0.0",
+    "recompose": "^0.30.0",
+    "sass": "^1.49.9",
+    "scss": "^0.2.4",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/antd": "^1.0.0",
+    "@types/recompose": "^0.30.10",
+    "craco-alias": "^3.0.1",
+    "ts-loader": "^9.2.8"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
